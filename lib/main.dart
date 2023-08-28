@@ -3,6 +3,7 @@ import 'package:toonflix/screens/home_screen.dart';
 import 'package:toonflix/services/api_service.dart';
 
 void main() {
+  //웹툰 API 정보를 가지고 온다.
   ApiService().getTodayToons();
   runApp(const App());
 }
